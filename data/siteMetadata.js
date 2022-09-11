@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: '쏙 - 공지사항',
+  title: '쏙 - 개발 블로그',
   author: 'Yun Taein',
   headerTitle: '쏙',
   description: '',
