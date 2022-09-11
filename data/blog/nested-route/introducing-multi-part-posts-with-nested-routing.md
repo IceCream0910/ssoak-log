@@ -1,30 +1,30 @@
 ---
-title: Introducing Multi-part Posts with Nested Routing
-date: '2021-05-02'
-tags: ['multi-author', 'next-js', 'feature']
+title: 22-09-11 업데이트
+date: '2022-09-11'
+tags: ['업데이트', '공통']
 draft: false
-summary: 'The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!'
+summary: '쏙의 달라진 점을 소개합니다! - 커뮤니티 게시글 작성 화면 변경, 수행평가 탭 개편, 온보딩 화면 추가 등'
 ---
 
-# Nested Routes
+🖐️ 쏙에 처음 온 사용자를 위해 친절함을 한 스푼 더했어요. 첫 실행 후 바로 학년/반 정보를 설정하고 커뮤니티에 로그인할 수 있도록 도와줄게요.
 
-The blog template supports posts in nested sub-folders. This helps in organisation and can be used to group posts of similar content e.g. a multi-part series. This post is itself an example of a nested route! It's located in the `/data/blog/nested-route` folder.
+🤖 현재 보고있는 카테고리에 따라 커뮤니티 글 작성 시 자동으로 카테고리를 지정해줘요.
 
-## How
+🔐 건강상태 자가진단 비밀번호에 암호화를 적용했어요. 기존에는 브라우저에 비밀번호가 그대로 저장되어 있었지만, 이제 누구도 알아볼 수 없도록 암호화하여 저장됩니다.
 
-Simplify create multiple folders inside the main `/data/blog` folder and add your `.md`/`.mdx` files to them. You can even create something like `/data/blog/nested-route/deeply-nested-route/my-post.md`
+📝 게시물 작성 화면이 달라졌어요. 이제 좀 더 넓은 화면에서 글을 쓰고 사진도 여러 개 첨부해보세요(최대 3개 첨부 가능)
 
-We use Next.js catch all routes to handle the routing and path creations.
+✅ 수행평가 탭을 개편했어요. 이제 반 별로 하나의 수행평가 리스트를 공유해요.
 
-## Use Cases
+📅 이제 학사일정에 날짜와 함께 요일을 표시해줄게요.
 
-Here are some reasons to use nested routes
+⚒️ 홈 화면 기본 순서를 변경했어요. 기본 설정에서 급식과 시간표를 맨 위로, 자가진단과 학사일정, 가정통신문 순서로 제공돼요.
 
-- More logical content organisation (blogs will still be displayed based on the created date)
-- Multi-part posts
-- Different sub-routes for each author
-- Internationalization (though it would be recommended to use [Next.js built-in i8n routing](https://nextjs.org/docs/advanced-features/i18n-routing))
+⚡ 일부 기기에서 발생하는 커뮤니티 로그인 이슈를 수정했어요.
 
-## Note
+✨ 사소한 버그 수정 및 텍스트 가독성을 개선했어요.
 
-- The previous/next post links at bottom of the template are currently sorted by date. One could explore modifying the template to refer the reader to the previous/next post in the series, rather than by date.
+<aside>
+⚠️ 최근 **교육부에서** ‘**건강상태 자가진단** 서비스 운영을 저해하는 **비정상적 접속**’에 대한 법적 대응 등 **강력 대응 방침**을 밝혔습니다. 
+이에 따라 쏙에서 제공하던 건강상태 **자가진단 제출 기능은 별도 예고없이 중단될 수 있음**을 알려드립니다.
+</aside>

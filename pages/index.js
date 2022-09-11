@@ -66,7 +66,7 @@ export default function Home({ posts }) {
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                           aria-label={`Read "${title}"`}
                         >
-                          Read more &rarr;
+                          자세히 보기 &rarr;
                         </Link>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ export default function Home({ posts }) {
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label="all posts"
           >
-            All Posts &rarr;
+            모두 보기 &rarr;
           </Link>
         </div>
       )}
