@@ -8,7 +8,7 @@ const siteMetadata = {
   siteUrl: 'https://log.sungil.me',
   siteRepo: 'https://github.com/icecream0910/ssoak-log',
   siteLogo: '/static/images/logo.png',
-  image: 'https://avatars.githubusercontent.com/u/44636839',
+  image: '/static/images/avatar.png',
   socialBanner: '',
   email: 'icecream2370@kakao.com',
   github: '',
