@@ -20,6 +20,7 @@ summary: 'Slack API를 사용해 커뮤니티 신고 기능을 구현하는 방�
 그럼 Slack API를 사용해 웹 상에서 Slack 채널로 메시지를 전송하는 방법을 알아볼까요?
 
 ---
+우선 Slack에 가입하여 워크스페이스를 생성해주어야 합니다. 이 과정은 생략하겠습니다.
 
 ## Slack 워크스페이스에 앱 추가하기
 ![image](https://i.imgur.com/1lHADY7.png)
