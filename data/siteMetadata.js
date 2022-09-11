@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: '쏙 - 공지사항',
   author: 'Yun Taein',
-  headerTitle: '공지사항',
+  headerTitle: '쏙 알림센터',
   description: '',
   language: 'ko-KR',
   theme: 'system', // system, dark or light
