@@ -2,7 +2,7 @@ const siteMetadata = {
   title: '쏙 - 공지사항',
   author: 'Yun Taein',
   headerTitle: '공지사항',
-  description: '쏙 공지사항',
+  description: '',
   language: 'ko-KR',
   theme: 'system', // system, dark or light
   siteUrl: 'https://log.sungil.me',
